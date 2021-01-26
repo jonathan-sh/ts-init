@@ -1,0 +1,11 @@
+{
+  "verbose": false,
+  "ignore": ["node_modules", "src/**/*.spec.ts"],
+  "env": {
+    "NODE_ENV": "development",
+    "BABEL_DISABLE_CACHE": 1
+  },
+  "watch": ["src", ".env"],
+  "ext": "js,ts,json",
+  "exec": "yarn lint && ts-node  --transpile-only ./src/index.ts"
+}

@@ -1,0 +1,24 @@
+### NodeJS ###
+node_modules/*
+
+dist
+build
+package-lock.json
+.env
+
+
+### IntelliJ IDEA ###
+.idea/*
+*.iws
+*.iml
+*.ipr
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Yarn
+yarn*
